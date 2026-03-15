@@ -21,9 +21,9 @@ def calcular_tdp_regressao(pw):
 
 # --- INTERFACE STREAMLIT ---
 
-st.set_page_config(page_title="Ambiência Wilhelm", page_icon="🌡️")
-st.title("📊 Calculadora de Ambiência Animal")
-st.markdown(f"**Baseado em:** Wilhelm (1976) | **Autor:** Seu Nome")
+st.set_page_config(page_title="Cálculadora Ambiência Wilhelm", page_icon="🌡️")
+st.title("Calculadora de Ambiência Animal")
+st.markdown(f"**Baseado em:** Numerical Calculation of Psycrometric Properties in SI Units, ASAE, Wilhelm (1976) | **Feito por:** Alexandre Klein")
 
 # --- BARRA LATERAL (CONFIGURAÇÕES) ---
 st.sidebar.header("Configurações Locais")
