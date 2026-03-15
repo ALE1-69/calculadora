@@ -33,7 +33,7 @@ altitude = st.sidebar.number_input("Altitude (m)", value=0, help="Ex: Padrão 0m
 p_atm = 101.325 * (1 - 2.25577e-5 * altitude)**5.25588
 st.sidebar.write(f"Pressão estimada: **{p_atm:.2f} kPa**")
 
-especie = st.sidebar.selectbox("Espécie Animal", ["Bovinos", "Aves", "Suínos"])
+especie = st.sidebar.selectbox("Espécie Animal", ["Bovino Leiteiro", "Aves", "Suínos"])
 
 # --- ENTRADA DE DADOS ---
 st.header("Dados do Ambiente")
