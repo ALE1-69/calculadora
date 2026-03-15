@@ -23,8 +23,8 @@ def calcular_tdp_regressao(pw):
 
 st.set_page_config(page_title="Calculadora Ambiência Wilhelm", page_icon="🌡️")
 st.title("|GEA117 - Construções e Ambiência| Calculadora de Ambiência Animal")
-st.markdown(f"**Baseado em:** Numerical Calculation of Psycrometric Properties in SI Units, ASAE, Wilhelm (1976) |      **Feito por:** Alexandre Klein, Graduando Eng. Agrícola pela Universidade Federal de Lavras")
-
+st.markdown(f"**Baseado em:** Numerical Calculation of Psycrometric Properties in SI Units, ASAE, Wilhelm (1976) |      
+st.markdown(f"**Feito por:** Alexandre Klein, Graduando Eng. Agrícola pela Universidade Federal de Lavras")
 # --- BARRA LATERAL (CONFIGURAÇÕES) ---
 st.sidebar.header("Configurações Locais")
 altitude = st.sidebar.number_input("Altitude (m)", value=0, help="Ex: Padrão 0m")
